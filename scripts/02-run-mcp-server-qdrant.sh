@@ -9,4 +9,4 @@ TOOL_FIND_DESCRIPTION="Search for relevant code snippets based on natural langua
 The 'query' parameter should describe what you're looking for, \
 and the tool will return the most relevant code snippets. \
 Use this when you need to find existing code snippets for reuse or reference." \
-uvx mcp-server-qdrant --transport streamable-http # Enable SSE transport
+uvx mcp-server-qdrant --transport streamable-http # Enable streamable HTTP protocol
