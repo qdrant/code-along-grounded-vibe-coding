@@ -71,5 +71,5 @@ Connect to Qdrant in the CLI app. Please use one of the available models, and as
 ### Finalize the RAG pipeline
 
 ```
-Please extend the ask_command function, so it takes the extracted texts and send them to Claude API along with the original question, so the model can answr it based on the facts from the database. Please use web search to find how to do that with Claude in Python.
+Please extend the ask_command function, so it takes the extracted texts and send them to Claude API along with the original question, so the model can answer it based on the facts from the database. Please use web search to find how to do that with Claude in Python.
 ```
