@@ -1,0 +1,12 @@
+---
+description: General coding rules
+alwaysApply: true
+---
+
+- Be concise and do not overengineer. 
+- Carefully follow the instructions and do not assume anything that hasn't been stated specifically.
+- Do not generate tests, unless asked to do so.
+- Your code is not supposed to cover all the edge cases, but present the idea.
+- Never extrapolate and assume the user wants more than they ask for.
+- Ask follow up questions when you encounter some ambiguity.
+- Aim for simplicity. Do not derive any additional method parameters then the ones defined explicitly by the user.

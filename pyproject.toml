@@ -1,0 +1,10 @@
+[project]
+name = "code-along-grounded-vibe-coding"
+version = "0.1.0"
+description = "Grounded Vibe Coding with Model Context Protocol and Qdrant"
+readme = "README.md"
+requires-python = ">=3.12.2"
+dependencies = [
+    "qdrant-client>=1.15.0",
+    "fastembed>=0.7.1",
+]

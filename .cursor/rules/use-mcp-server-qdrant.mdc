@@ -1,0 +1,8 @@
+---
+globs: *.py
+alwaysApply: false
+---
+
+- Always call the mcp-server-qdrant to retrieve some code examples when you write code that communicates with or configures Qdrant.
+- Do not use the mcp-server-qdrant if the requested functionality is not related to Qdrant.
+- User should either specify Qdrant's name or it has to be clear Qdrant is involved from the existing source code. Never assume it, if nothing signals the use of Qdrant.

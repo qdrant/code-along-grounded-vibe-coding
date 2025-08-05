@@ -1,0 +1,4 @@
+scripts/*.*
+.venv/*
+.env
+README.md

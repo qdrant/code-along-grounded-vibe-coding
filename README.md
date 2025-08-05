@@ -1,0 +1,5 @@
+# Grounded Vibe Coding with Model Context Protocol and Qdrant
+
+AI coding assistants are becoming increasingly popular, but we still take their output with a grain of salt. Vibe coding an app over a weekend is hard, but possible. Still, the quality of the generated code might be below expectations, as your applications may use outdated versions of the libraries - the ones the underlying LLM was trained on. That's where Qdrant's MCP server comes in handy, as it can act as a knowledge base, providing the right code examples just in time when you need them. Thanks to the Model Context Protocol, it integrates with the most popular AI coding assistants, including Cursor, Claude Code, and Windsurf.
+
+In this code-along, Kacper Łukawski, a Senior Developer Advocate at Qdrant, will teach you how to rapidly build a Retrieval Augmented Generation system based on the Qdrant vector database. He will present an end-to-end setup for using your favourite AI coding assistant to speed development with the help of the MCP server that will be acting as a knowledge base for the libraries we will need, and how to use it to implement a RAG system faster than you ever could.
